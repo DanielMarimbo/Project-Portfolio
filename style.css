@@ -4,7 +4,7 @@
   --card:#F5F2E9;
   --ink:#182229;
   --ink-soft:#4A5760;
-  --line: rgba(24,34,41,0.18);
+  --line: rgba(27, 31, 34, 0.18);
   --line-strong: rgba(24,34,41,0.34);
   --teal:#0E6E72;
   --teal-deep:#0A4F52;
@@ -39,6 +39,12 @@ header{
   background:rgba(233,228,216,0.92);
   backdrop-filter:blur(6px);
   border-bottom:1px solid var(--line);
+}
+
+.profile-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 .header-inner{display:flex; align-items:center; justify-content:space-between; padding:16px 0;}
 .brand{font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:17px;}
